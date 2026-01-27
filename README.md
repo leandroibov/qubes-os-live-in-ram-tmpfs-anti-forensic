@@ -16,7 +16,7 @@ This script automates the configuration to run Qubes dom0 in RAM and utilize app
 
    ```bash
    qvm-run --pass-io vault 'cat "/home/user/4.3.ephemeral.sh"' > /home/user/4.3.ephemeral.sh
-   sudo chmod +x /home/user/4.3.ephemeral.sh
+   sudo chmod +x 4.3.ephemeral.sh
    sudo ./4.3.ephemeral.sh
 
 ## Option 1: Run Qubes with 100% dom0 in RAM

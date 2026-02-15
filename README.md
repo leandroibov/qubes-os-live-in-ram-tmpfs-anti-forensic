@@ -1,4 +1,4 @@
-# Qubes OS 100% in RAM tmpfs Anti-Forensic Amnesic Script for dom0: Automated
+# Ephemeral: Qubes OS 100% in RAM, tmpfs, Anti-Forensic, Amnesic with Anti Cold Boot Attack
 
 This script automates the configuration to run Qubes dom0 in RAM and utilize appvms and templates in varlibpool, maintaining an anti-forensic and amnesic state similar to Tails OS. It also allows restoration to the original Qubes state.
 

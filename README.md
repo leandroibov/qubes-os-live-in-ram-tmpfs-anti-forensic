@@ -40,6 +40,18 @@ From reboot:
    reboot
 Your Qubes will revert to normal, and the y/n option for live mode will no longer appear at boot.
 
+## Option 3: Anti Cold Boot Attack Modules
+Similar to Tails OS and Whonix, using the same anti cold boot attack algorithm developed by the Whonix team!  
+However, the user will need to set up a keyboard shortcut to quickly trigger `sudo shutdown` in case a physical attacker invades their home to carry out a cold boot attack!  
+The dom0 does not allow the connection of USB drives, so it is not possible to program a USB drive to initiate the anti cold boot attack by removing it and shutting down the system!  
+Suggested shortcut: in Qubes, go to Open Application Menu, Settings Manager, and Keyboard to add the shortcut for the command:  
+`sudo shutdown now`  
+Shortcut: left arrow + down arrow + right arrow  
+
+## Option 4: Remove Anti Cold Boot Attack Modules
+For maintenance in case something goes wrong. Checks the original hashes of the files used to create the dracut modules and indicates modifications or any missing files to diagnose installation errors!
+
+
 ## Important Notes
 
 dom0 has a default size of 20 gigabytes, initially occupying 6 gigabytes of the system. To add many large templates and appvms totaling, for example, 40 gigabytes, you may need to:

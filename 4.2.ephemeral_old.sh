@@ -724,20 +724,7 @@ for file in "${!files_hashes[@]}"; do
     fi
 done
 
-# Check the status of files and hashes
-if $all_exist; then
-    echo "All files exist."
-else
-    echo "Some files are missing."
-fi
-
-if $all_match; then
-    echo "All hashes correspond."
-else
-    echo "Some hashes do not correspond."
-fi
-
-echo "Anti cold boot attack modules are already installed."
+echo "Anti-cold boot attack module files and their status are listed above."
 
 # Prompt to continue or cancel the operation
 read -p "Do you wish to continue or cancel the operation? (type 'y' or 'n'): " user_input
@@ -798,7 +785,7 @@ check_root_ram
         echo "3. Install Anti-Cold Boot Attack Dracut Modules"
         echo "4. Remove Anti-Cold Boot Attack Dracut Modules for maintenance"
         echo "5. Exit"
-        read -p "Enter your choice (1-3): " choice
+        read -p "Enter your choice (1-5): " choice
         
         case $choice in
             1)

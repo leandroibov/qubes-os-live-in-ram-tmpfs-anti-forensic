@@ -46,7 +46,7 @@ However, the user will need to set up a keyboard shortcut to quickly trigger `su
 The dom0 does not allow the connection of USB drives, so it is not possible to program a USB drive to initiate the anti cold boot attack by removing it and shutting down the system!  
 Suggested shortcut: in Qubes, go to Open Application Menu, Settings Manager, and Keyboard to add the shortcut for the command:  
 `sudo shutdown now`  
-Shortcut: left arrow + down arrow + right arrow  
+Shortcut: control + Super
 
 ## Option 4: Remove Anti Cold Boot Attack Modules
 For maintenance in case something goes wrong. Checks the original hashes of the files used to create the dracut modules and indicates modifications or any missing files to diagnose installation errors!

@@ -59,6 +59,9 @@ dom0 has a default size of 20 gigabytes, initially occupying 6 gigabytes of the 
 - Increase the size of the dom0 partition.
 - Ensure you have enough RAM to accommodate this!
 
+## Advanced Guide and Theory
+- https://traderprofissional.com.br/qubes-os-live-ram-anti-forense-cold-boot.aspx
+
 # Doe monero para nos ajudar: (donate XMR)
 
     87JGuuwXzoMGwQAcSD7cvS7D7iacPpN2f5bVqETbUvCgdEmrPZa12gh5DSiKKRgdU7c5n5x1UvZLj8PQ7AAJSso5CQxgjak

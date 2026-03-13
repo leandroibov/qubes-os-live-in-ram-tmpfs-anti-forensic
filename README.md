@@ -45,7 +45,7 @@ Similar to Tails OS and Whonix, using the same anti cold boot attack algorithm d
 However, the user will need to set up a keyboard shortcut to quickly trigger `sudo shutdown` in case a physical attacker invades their home to carry out a cold boot attack!  
 The dom0 does not allow the connection of USB drives, so it is not possible to program a USB drive to initiate the anti cold boot attack by removing it and shutting down the system!  
 Suggested shortcut: in Qubes, go to Open Application Menu, Settings Manager, and Keyboard to add the shortcut for the command:  
-`sudo shutdown now`  
+`sudo halt -p`  
 Shortcut: control + Super
 
 ## Option 4: Remove Anti Cold Boot Attack Modules
